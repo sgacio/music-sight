@@ -9,4 +9,94 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: rgb(44,
+      103,
+      158);
+}
+
+header {
+  text-align: center;
+  border-bottom: .5rem solid black;
+  border-top: .5rem solid black;
+  padding-bottom: .2rem;
+  background-color: rgb(189, 76, 76);
+  color: rgb(22, 18, 18);
+}
+
+img {
+  height: 6rem;
+  width: 6rem;
+  margin-top: -3rem;
+}
+
+.circles {
+  border-radius: 60px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.home-page-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+
+#home-images {
+  margin-top: 2rem;
+  height: 15rem;
+  width: auto;
+  border-radius: 50px;
+}
+
+.band-name {
+  text-align: center;
+}
+
+.wiggle-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#wiggle-pic {
+  height: 20rem;
+  width: 20rem;
+  margin-top: 1rem;
+  margin-left: 38rem;
+}
+
+#alvin-pic {
+  height: 20rem;
+  width: auto;
+  margin-top: 1rem;
+  margin-left: 30rem;
+}
+
+#muppet-pic {
+  height: 20rem;
+  width: auto;
+  margin-top: 1rem;
+  margin-left: 41.1rem;
+}
+
+p {
+  text-align: center;
+}
+
+section {
+  border: .3rem solid black;
+  margin: 2rem 30rem 0rem 30rem;
+  background-color: antiquewhite;
+  border-radius: 40px;
+}
+
+.i-love-this {
+  border: .3rem solid black;
+  padding: 1rem;
+  margin: 2rem 26rem 0rem 26rem;
+  background-color: antiquewhite;
+  border-radius: 40px;
 }
